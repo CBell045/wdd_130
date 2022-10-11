@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    margin: 20px auto;
+    display: block;
+}
+
+body {
+    background-color: #FBA7C9;
+    width: 400px;
+}
+
+
+h1:hover {
+    color: black;
+}
+
+p.white, h1.white, h2.white, h5.white {
+    color: white;
+}
