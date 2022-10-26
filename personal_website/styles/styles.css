@@ -1,0 +1,19 @@
+/* CSS HEX */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@200;400&display=swap');
+
+fonts {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --main-color: #016fb9ff;
+    --accent-1: #22aed1ff;
+    --main-background-color: #ffffffff;
+    --main-text-color: #000000ff;
+    --accent-2: #6d8ea0ff;
+    --orange: #ff8000ff;
+    --mint-cream: #f8fff4ff;
+    --light-gray: #cdd7d6ff;
+}
+
