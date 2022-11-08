@@ -194,6 +194,13 @@ footer {
 
 
 /*  Page 2 Styles (Adventure Page) */
+main img {
+    width: 100%;
+    display: block;
+}
+main div {
+    text-align: center;
+}
 main.adventure-grid {
     display: grid;
     grid-template-columns: 1fr, 1fr;
@@ -209,12 +216,46 @@ main.adventure-grid {
 .salmon_river_text {
     background-color: #134266;
     color: white;
-    text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    padding: 10px;
+}
+.desolation_river_img {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.grand_canyon_img {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.grand_canyon_text {
+    background-color: #134266;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 10px;
+}
+.grand_canyon_descriptions {
+    font-size: .7em;
+}
+.button-box2 {
+    text-align: center;
+    margin-top: 100px;
 
 }
-
+.book2 {
+    text-align: center;
+    color: #ffff;
+    background-color: #134266;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.book2:hover { 
+    background-color: white;
+    color: #134266;
+}
 
 
 @media screen and (max-width: 900px) {
