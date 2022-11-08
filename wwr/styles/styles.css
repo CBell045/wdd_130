@@ -202,7 +202,7 @@ main div {
 }
 main.adventure-grid {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 .salmon_river_img {
