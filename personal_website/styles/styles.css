@@ -20,12 +20,15 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'DM Sans', sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
     background-color: var(--main-color);
 }
-/* Begin Home Page CSS */
+/* Home Page CSS */
+
+/* Header */
 header {
     color: var(--white);
 }
@@ -46,7 +49,8 @@ header nav a {
     width: 120px;
 }
 header a {
-    padding: 30px
+    padding: 30px;
+    text-decoration: none;
 }
   
 header nav a:hover {
@@ -54,8 +58,57 @@ header nav a:hover {
 }
   
 header a.active {
-    background-color: var(--accent-1);
+    background-color: white;
+    color: black;
+}
+
+/* Main Home Page */
+
+/* .container {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(images/background_img.jpg);
+} */
+#background_img {
+    width: 100%;
+    position: relative;
+    /* filter: brightness(100%); */
+}
+.center {
+    position:absolute;
+    text-align:center;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);    
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 0px;
+    /* background-color: transparent; */
+}
+.center * {
     color: white;
+    background-color: transparent;
+}
+.social {
+    width: 5%;
+    position:absolute;
+    text-align:center;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);  
+    background-color: transparent;
+}
+.social a img {
+    float: left;
+    background-color: transparent;
+}
+.email {
+}
+.linkedin {
+     
 }
   
 @media screen and (max-width: 500px) {
