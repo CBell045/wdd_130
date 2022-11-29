@@ -102,13 +102,20 @@ header a.active {
     background-color: transparent;
 }
 .social a img {
+    position: relative;
     float: left;
-    background-color: transparent;
+    /* background-color: transparent; */
+    border-radius: 10px;
 }
 .email {
+    left: -100px;
 }
 .linkedin {
-     
+    top: -60px;
+}
+.github {
+    left: 100px;
+    top: -120px;
 }
   
 @media screen and (max-width: 500px) {
