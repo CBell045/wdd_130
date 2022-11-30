@@ -64,17 +64,9 @@ header a.active {
 
 /* Main Home Page */
 
-/* .container {
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url(images/background_img.jpg);
-} */
 #background_img {
     width: 100%;
     position: relative;
-    /* filter: brightness(100%); */
 }
 .center {
     position:absolute;
@@ -86,7 +78,6 @@ header a.active {
     padding: 10px;
     padding-right: 20px;
     padding-left: 0px;
-    /* background-color: transparent; */
 }
 .center * {
     color: white;
@@ -104,7 +95,6 @@ header a.active {
 .social a img {
     position: relative;
     float: left;
-    /* background-color: transparent; */
     border-radius: 10px;
 }
 .email {
@@ -117,6 +107,15 @@ header a.active {
     left: 100px;
     top: -120px;
 }
+
+/* Footer */
+footer * {
+    color: white;
+}
+.copyright {
+    float: right;
+}
+
   
 @media screen and (max-width: 500px) {
     header a {
