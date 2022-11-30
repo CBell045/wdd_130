@@ -78,22 +78,23 @@ header a.active {
     padding: 10px;
     padding-right: 20px;
     padding-left: 0px;
+    width: 600px;
 }
 .center * {
     color: white;
     background-color: transparent;
 }
 .social {
-    width: 5%;
-    position:absolute;
+    width: 60px;
+    position: absolute;
     text-align:center;
     top: 450px;
     left: 50%;
     transform: translateX(-50%);  
     background-color: transparent;
 }
-.social a img {
-    position: relative;
+.social a div img {
+    position: absolute;
     float: left;
     border-radius: 10px;
 }
@@ -101,11 +102,10 @@ header a.active {
     left: -100px;
 }
 .linkedin {
-    top: -60px;
+    left: 0px;
 }
 .github {
     left: 100px;
-    top: -120px;
 }
 
 /* Footer */
