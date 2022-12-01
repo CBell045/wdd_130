@@ -90,6 +90,9 @@ h2 {
 }
 
 
+/* Story Page */
+
+
 /* Footer */
 footer {
     padding: 25px 50px;
@@ -97,4 +100,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.social {
+    width: 7%;
 }
