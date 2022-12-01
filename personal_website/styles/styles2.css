@@ -72,27 +72,23 @@ header a.active {
     text-align: center;
     color: white;
 }
-.hero-center1 {
+.hero-text {
     position:absolute;
     text-align:center;
     top: 30%;
     left: 50%;
     transform: translateX(-50%);    
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
-    padding-right: 20px;
-    padding-left: 0px;
     width: 600px;
 }
 h1 {
     font-size: 2.5em;
 }
-.hero-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+h2 {
+    font-size: 1.35em;
 }
+
 
 /* Footer */
 footer {
