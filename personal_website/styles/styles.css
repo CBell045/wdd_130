@@ -114,10 +114,15 @@ h1 {
 /* Footer */
 footer * {
     color: white;
+    padding: 20px;
 }
 .copyright {
     float: right;
 }
+.siteplan {
+    float: left;
+}
+
 
   
 @media screen and (max-width: 500px) {
