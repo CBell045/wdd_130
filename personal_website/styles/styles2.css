@@ -91,16 +91,34 @@ h2 {
 
 
 /* Story Page */
-
+img {
+    width: 10%;
+}
 
 /* Footer */
+hr {
+    border: 0;
+    display:block;
+    width: 98%;      
+    background-color:white;
+    height: 1px;
+    margin: auto;
+    margin-top: 10px; 
+  }
 footer {
-    padding: 25px 50px;
-    margin-top: 200px; 
+    padding: 3px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 .social {
-    width: 7%;
+    display: flex;
+}
+.social img {
+    width: 40px; 
+    padding: 20px;
+}
+footer p a {
+    color: white;
 }
