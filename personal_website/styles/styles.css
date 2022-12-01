@@ -110,6 +110,9 @@ h1 {
 .github {
     left: 100px;
 }
+.social img {
+    width: 100%;
+}
 
 /* Footer */
 footer * {
