@@ -201,3 +201,6 @@ footer p a {
 .experience {
     font-size: 1.6vw;
 }
+#download a {
+    color: lightblue
+}
