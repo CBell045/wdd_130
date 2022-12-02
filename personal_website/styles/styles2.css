@@ -5,7 +5,7 @@
     font-family: 'DM Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
 } */
-
+ 
 :root {
     --main-color: #016fb9ff;
     --accent-1: #22aed1ff;
@@ -174,4 +174,30 @@ footer {
 }
 footer p a {
     color: white;
+}
+
+
+
+/* Experience Page */
+.resume {
+    margin: 40px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+#download {
+    text-align: center;
+    font-size: 1.8vw;
+}
+#resume_pic {
+    width: 30vw;
+    border: 5px solid white;
+}
+#resume {
+    grid-column-start: 2;
+}
+.experience {
+    font-size: 1.6vw;
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chad Bell | Experience</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles2.css">
 </head>
 <body>
     <header>
@@ -19,14 +19,33 @@
         </nav>
     </header>
     <main>
+        <div class="hero">
+            <img class="background_img_2" src="images/resume_background_img_2.jpg" alt="Handing Resume">
+            <div class="hero-text">
+                <h1 class="hero-center1">My Real Experience</h1>
+                <h2 class="hero-center2" id="hero-center-subtitle">Real Companies. Real Work. Real People.</h2>
+            </div>
+        </div>
         <div class="resume">
-            <h1>My Real Experience</h1>
-            <h2>Real Companies. Real Work. Real People.</h2>
-            <p>Lorem Ipsom something or other about the different companies that I have worked at. </p>
-            <img src="images/resume_pic.jpeg" alt="Personal Picture">
-
-            <p>Download a current copy of my real resume -></p>
-            <img src="images/resume.png" alt="resume icon">
+            <img id="resume_pic" src="images/resume_pic.jpeg" alt="resume pic">
+            <div class="experience">
+                <h1>Experience</h1>
+                <h2>Annaniks | Gyumri, Armenia — Django Developer</h2>
+                <i>Apr 2022 - May 2022</i>
+                <p>- Provided backend web development using Python's Django Framework for an EV Charging Mobile Application</p>
+                <p>- In four weeks, learned the basics of Django and created CRUD API endpoints using Django Rest Framework</p>
+                <p>- Experienced international business differences and developed communication skills that cross language barriers</p>
+                <br>
+                <h2>Frozen Dessert Supplies | Rexburg, ID — Data Analyst</h2>
+                <i>Oct 2021 - Apr 2022</i>
+                <p>- Collaborated with a small team of 2 people to design and implement a customer database solution using MySQL</p>
+                <p>- Used data visualization tools (Power BI) to display findings and suggest potential return customers</p>
+                <p>- Created a competitor pricing comparison page using Google Sheets and web scraping to improve pricing for hundreds of products across 10+ companies</p>     
+            </div>
+            <div id="download">
+                <p>Download a current copy of my resume <a href="other/Chad Bell Resume.pdf" download="Chad Bell Resume">here</a>.</p>
+                <!-- <img id="resume" src="images/resume.png" alt="resume icon"> -->
+            </div>
         </div>
         <div class="projects">
             <h4>Translator App</h4>
@@ -34,9 +53,8 @@
             <img id="translator" src="images/translator.gif" alt="Translator">
         </div>
     </main>
+    <hr>
     <footer>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p>&copy; 2022 - Chad Bell</p>
         <div class="social">
             <a href = "mailto: chadbell045@gmail.com" target="_blank">
                 <img src="images/email_icon.svg" alt="email icon">
@@ -48,6 +66,9 @@
                 <img src="images/github_icon.svg" alt="github icon">
             </a>
         </div>
+        <p><a href="site-plan.html">Site Plan</a>
+            &copy; 2022 - Chad Bell
+        </p>
     </footer>
 </body>
 </html>
