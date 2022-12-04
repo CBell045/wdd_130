@@ -184,8 +184,9 @@ footer p a {
     color: white;
     display: grid;
     grid-template-columns: 1fr 7fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     gap: 20px;
+    height: auto;
 }
 #download {
     text-align: center;
@@ -203,4 +204,17 @@ footer p a {
 }
 #download a {
     color: lightblue
+}
+
+/* Translator App */
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 40px;
+
+}
+.projects_text {
+    color: white;
+    font-size: 1.8vw;
+
 }

@@ -91,7 +91,8 @@ h1 {
     width: 60px;
     position: absolute;
     text-align:center;
-    top: 500px;
+    /* top: 500px; */
+    top: 66%;
     left: 50%;
     transform: translateX(-50%);  
     background-color: transparent;
